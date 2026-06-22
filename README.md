@@ -31,7 +31,7 @@ To run this project locally using **Laragon**, follow these steps:
 Clone this repository into your Laragon's local server directory (usually `C:\laragon\www\`):
 ```bash
 cd C:\laragon\www
-git clone [https://github.com/syfrkngl/Portfolio.git]
+git clone [https://github.com/syfrkngl/Portfolio-ITS.git]
 2. Database Migration (Setup)
 Since this is a Native PHP project, you can easily migrate the structure using HeidiSQL or phpMyAdmin via Laragon:
 
@@ -57,11 +57,7 @@ CREATE TABLE IF NOT EXISTS kontak (
 Open your favorite browser and access the local server domain created automatically by Laragon:
 
 Plaintext
-http://localhost/Portfolio/
-or using Laragon's virtual host link:
-
-Plaintext
-[http://ITS-htdocs.test](http://portfolio.test)
+http://localhost/Portfolio-ITS/
 📸 Preview & Testing Mobile Responsiveness
 You can easily test the mobile responsiveness by right-clicking on the webpage -> Inspect -> toggle the Device Toolbar (Ctrl+Shift+M) to view the auto-centered mobile navbar layout.
 
